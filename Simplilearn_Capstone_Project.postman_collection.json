@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "7fa74c3a-8b0f-4e43-8e61-93b48f4bf81c",
+		"name": "Simplilearn_Capstone_Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "view products from category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicare/json/data/category/1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"category",
+						"1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of most viewed medicine",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "List of most purchased medicine",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicare/json/data/mp/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"mp",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicare/json/data/all/products?_=1644848463222",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"all",
+						"products"
+					],
+					"query": [
+						{
+							"key": "_",
+							"value": "1644848463222"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
