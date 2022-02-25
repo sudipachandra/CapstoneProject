@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Simplilearn_capstone_project" duration-ms="62400" started-at="2022-02-17T08:41:01 IST" finished-at="2022-02-17T08:42:04 IST">
+  <suite name="Default suite" duration-ms="11619" started-at="2022-02-22T23:41:40 IST" finished-at="2022-02-22T23:41:51 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="62400" started-at="2022-02-17T08:41:01 IST" finished-at="2022-02-17T08:42:04 IST">
+    <test name="Default test" duration-ms="11619" started-at="2022-02-22T23:41:40 IST" finished-at="2022-02-22T23:41:51 IST">
       <class name="com.simplilearn.capstoneproject.LoginTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@7fc229ab]" name="launchBrowser" is-config="true" duration-ms="1829" started-at="2022-02-17T08:41:16 IST" finished-at="2022-02-17T08:41:17 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@15d9bc04]" name="launchBrowser" is-config="true" duration-ms="2468" started-at="2022-02-22T23:41:40 IST" finished-at="2022-02-22T23:41:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@7fc229ab]" name="testLogin" duration-ms="17515" started-at="2022-02-17T08:41:17 IST" finished-at="2022-02-17T08:41:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@7fc229ab]" name="quitDriver" is-config="true" duration-ms="4084" started-at="2022-02-17T08:41:35 IST" finished-at="2022-02-17T08:41:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.simplilearn.capstoneproject.LoginTest -->
-      <class name="com.simplilearn.capstoneproject.ProductDetailsTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.simplilearn.capstoneproject.ProductDetailsTest@258e2e41]" name="launchBrowser" is-config="true" duration-ms="2158" started-at="2022-02-17T08:41:01 IST" finished-at="2022-02-17T08:41:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testProductDetails()[pri:0, instance:com.simplilearn.capstoneproject.ProductDetailsTest@258e2e41]" name="testProductDetails" duration-ms="8168" started-at="2022-02-17T08:41:03 IST" finished-at="2022-02-17T08:41:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProductDetails -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.simplilearn.capstoneproject.ProductDetailsTest@258e2e41]" name="quitDriver" is-config="true" duration-ms="4081" started-at="2022-02-17T08:41:11 IST" finished-at="2022-02-17T08:41:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.simplilearn.capstoneproject.ProductDetailsTest -->
-      <class name="com.simplilearn.capstoneproject.SignUpTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.simplilearn.capstoneproject.SignUpTest@2cbb3d47]" name="launchBrowser" is-config="true" duration-ms="1908" started-at="2022-02-17T08:41:39 IST" finished-at="2022-02-17T08:41:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="FAIL" signature="testSignUp()[pri:0, instance:com.simplilearn.capstoneproject.SignUpTest@2cbb3d47]" name="testSignUp" duration-ms="18543" started-at="2022-02-17T08:41:41 IST" finished-at="2022-02-17T08:41:59 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="testLogin()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@15d9bc04]" name="testLogin" duration-ms="5044" started-at="2022-02-22T23:41:42 IST" finished-at="2022-02-22T23:41:47 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="addressLineOne"]"}
+              <![CDATA[no such window: window was already closed
   (Session info: chrome=98.0.4758.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Sudipas-MacBook-Pro.local', ip: '2401:4900:16ce:26aa:41ee:7d65:3fa4:3176%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '1.8.0_292'
+System info: host: 'Sudipas-MacBook-Pro.local', ip: '2401:4900:3a00:5657:6087:2201:6a80:659b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/xv/r74j6l0544s...}, goog:chromeOptions: {debuggerAddress: localhost:53679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6c502873ef64553376aa88cb955bd37
-*** Element info: {Using=xpath, value=//*[@id="addressLineOne"]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/xv/r74j6l0544s...}, goog:chromeOptions: {debuggerAddress: localhost:62521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3613fcf47ad226a29d996e01913e2a93
+*** Element info: {Using=xpath, value=//*[@id="login"]/a}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="addressLineOne"]"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
   (Session info: chrome=98.0.4758.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Sudipas-MacBook-Pro.local', ip: '2401:4900:16ce:26aa:41ee:7d65:3fa4:3176%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '1.8.0_292'
+System info: host: 'Sudipas-MacBook-Pro.local', ip: '2401:4900:3a00:5657:6087:2201:6a80:659b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/xv/r74j6l0544s...}, goog:chromeOptions: {debuggerAddress: localhost:53679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6c502873ef64553376aa88cb955bd37
-*** Element info: {Using=xpath, value=//*[@id="addressLineOne"]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/xv/r74j6l0544s...}, goog:chromeOptions: {debuggerAddress: localhost:62521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3613fcf47ad226a29d996e01913e2a93
+*** Element info: {Using=xpath, value=//*[@id="login"]/a}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -78,9 +48,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-at com.simplilearn.capstoneproject.pages.BilingPage.give_information_to_biling(BilingPage.java:33)
-at com.simplilearn.capstoneproject.SignUpTest.testSignUp(SignUpTest.java:23)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.simplilearn.capstoneproject.pages.LoggedOutHomePage.clickOnLogin(LoggedOutHomePage.java:34)
+at com.simplilearn.capstoneproject.LoginTest.testLogin(LoginTest.java:18)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,15 +81,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSignUp -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.simplilearn.capstoneproject.SignUpTest@2cbb3d47]" name="quitDriver" is-config="true" duration-ms="4092" started-at="2022-02-17T08:41:59 IST" finished-at="2022-02-17T08:42:04 IST">
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.simplilearn.capstoneproject.LoginTest@15d9bc04]" name="quitDriver" is-config="true" duration-ms="4084" started-at="2022-02-22T23:41:47 IST" finished-at="2022-02-22T23:41:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.simplilearn.capstoneproject.SignUpTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Simplilearn_capstone_project -->
+      </class> <!-- com.simplilearn.capstoneproject.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

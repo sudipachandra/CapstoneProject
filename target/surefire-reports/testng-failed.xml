@@ -3,13 +3,6 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="com.simplilearn.capstoneproject.ProductDetailsTest">
-        <methods>
-          <include name="testProductDetails"/>
-          <include name="launchBrowser"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- com.simplilearn.capstoneproject.ProductDetailsTest -->
       <class name="com.simplilearn.capstoneproject.SignUpTest">
         <methods>
           <include name="launchBrowser"/>
@@ -17,13 +10,6 @@
           <include name="testSignUp"/>
         </methods>
       </class> <!-- com.simplilearn.capstoneproject.SignUpTest -->
-      <class name="com.simplilearn.capstoneproject.LoginTest">
-        <methods>
-          <include name="testLogin"/>
-          <include name="launchBrowser"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- com.simplilearn.capstoneproject.LoginTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Simplilearn_capstone_project]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.capstoneproject.SignUpTest">
+      <class name="com.simplilearn.capstoneproject.LoginTest">
         <methods>
+          <include name="testLogin"/>
           <include name="launchBrowser"/>
           <include name="quitDriver"/>
-          <include name="testSignUp"/>
         </methods>
-      </class> <!-- com.simplilearn.capstoneproject.SignUpTest -->
+      </class> <!-- com.simplilearn.capstoneproject.LoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Simplilearn_capstone_project] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
