@@ -35,7 +35,7 @@ public class SignUpPage {
 		Thread.sleep(6000);
 		firstName.sendKeys("sriyansh");
 		lastName.sendKeys("chandra");
-		email.sendKeys("sc@gmnail.com");
+		email.sendKeys("sm@gmnail.com");
 		contactNumber.sendKeys("1234567");
 		password.sendKeys("abcd");
 		confirmPassword.sendKeys("abcd");
